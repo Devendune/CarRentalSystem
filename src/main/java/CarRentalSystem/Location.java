@@ -7,6 +7,14 @@ public class Location
     String landmark;
     int pincode;
 
+    public Location(String address,String city,String landmark,int pincode)
+    {
+        this.address=address;
+        this.city=city;
+        this.landmark=landmark;
+        this.pincode=pincode;
+    }
+
     public String getAddress() {
         return address;
     }
