@@ -1,4 +1,6 @@
 package CarRentalSystem;
 
-public class VehicleRentalSystem {
+public class VehicleRentalSystem
+{
+
 }

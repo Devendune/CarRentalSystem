@@ -2,10 +2,10 @@ package CarRentalSystem;
 
 import java.util.List;
 
-public class VehicleInventory
+public class VehicleInventoryManagement
 {
     List<Vehicle> vehicleList;
-    public VehicleInventory(List<Vehicle>vehicles)
+    public VehicleInventoryManagement(List<Vehicle>vehicles)
     {
         this.vehicleList=vehicles;
     }

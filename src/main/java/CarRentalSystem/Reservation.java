@@ -6,6 +6,7 @@ import java.util.Timer;
 
 public class Reservation
 {
+    int reservationId;
     User user;
     Vehicle vehicle;
     Date bookingDate;
@@ -14,5 +15,15 @@ public class Reservation
     Time startTime;
     Time endTime;
     ReservationStatus reservationStatus;
+
+    public int createReserve(User user,Vehicle vehicle)
+    {
+        reservationId=123;
+        this.user=user;
+        this.vehicle=vehicle;
+        reservationStatus=ReservationStatus.RESERVED;
+
+        return reservationId;
+    }
 
 }
